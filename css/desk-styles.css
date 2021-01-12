@@ -73,6 +73,14 @@ html{
   color: #F7FBE1;
 }
 
+/* nav .nav-menu ul li ul{
+  visibility: hidden;
+}
+
+nav .nav-menu ul li:hover ul{
+  visibility: visible;
+} */
+
 /*-------------about us dropdown------------*/
 .container-dropdown .row .about-us-nav-item{
   font-family: 'Montserrat', sans-serif;
@@ -471,6 +479,16 @@ li{
     font-size: 10;
     font-weight: normal;
     color: #F7FBE1;
+  }
+
+  .quote-para1-no-mobile span a{
+    color: #F7FBE1;
+  }
+
+  .quote-para1-no-mobile span a:hover{
+    color: #B5C45F;
+    font-size: 1.7rem;
+    text-decoration: none;
   }
   /*-------------------------------------------*/
 
@@ -1093,7 +1111,7 @@ li{
 
 .our-work-desk-view{
   margin-top: 90px;
-  padding: 5% 15% 10%;
+  padding: 1% 7% 10%;
   background-image: url('../Images/our-work-images/our-work-bg.png');
   background-position: center;
   background-repeat: no-repeat;
@@ -1101,24 +1119,26 @@ li{
   background-attachment: fixed;
 }
 
-.our-work-desk-view h1{
+/* .our-work-desk-view h1{
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
   font-weight: bold;
   color: red;
-}
+} */
 
-.our-work-desk-view .first-para{
+/* .our-work-desk-view .first-para{
   font-family: 'Montserrat', sans-serif;
   font-size: 1.3rem;
   font-weight: 500;
   text-align: left;
   margin-left: 120px;
   color: #093D27;
-}
+} */
 
 .box-1{
   padding: 5% 5% 7%;
+  margin-left: 10%;
+  margin-right: 10%;
   background-color: #D7B1B1;
   border: 2px solid;
   border-color: red;
@@ -1126,11 +1146,15 @@ li{
 
 .box-2{
   padding: 9% 5% 4%;
+  margin-left: 10%;
+  margin-right: 10%;
   background-color: rgba(231, 255, 98, 65%);
 }
 
 .box-3{
   padding: 5% 5% 7%;
+  margin-left: 10%;
+  margin-right: 10%;
   background-color: rgba(106, 211, 217, 65%);
   border: 2px solid;
   border-color: #3A9DA3;
@@ -1138,6 +1162,8 @@ li{
 
 .box-4{
   padding: 12% 5% 3%;
+  margin-left: 10%;
+  margin-right: 10%;
   background-color: rgba(162, 180, 63, 65%);
 }
 

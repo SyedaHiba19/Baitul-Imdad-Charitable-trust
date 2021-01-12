@@ -464,6 +464,17 @@ li{
     font-weight: normal;
     color: #F7FBE1;
   }
+
+  .quote-para1-no-mobile span a{
+    color: #F7FBE1;
+  }
+
+  .quote-para1-no-mobile span a:hover{
+    color: #B5C45F;
+    font-size: 1.7rem;
+    text-decoration: none;
+  }
+
   /*-------------------------------------------*/
 
 
